@@ -5,7 +5,29 @@ Testing the Datasets of [Chinese-Speech-Emotion-Datasets](https://github.com/art
 
 ## Details
 
-*I'll add this content when I've time.
+| Method     | DataSet | TrainTime      | Accuracy(Train) | Accuracy(Test) |
+|                                                                          |
+| ----------:|:------- |:--------------:|:---------------:|:-------------- |
+| Bayes      | Gray    | 1.028 sec      | 96.5%           | 94.23%         |
+| DisionTree | Gray    | 3.518 sec      | 100.0%          | 100%           |
+| SVM        | Gray    | 135.714 sec    | 100.0%          | 38.46%         |
+| K-NN       | Gray    | 1.441 sec      | 99.83%          | 100%           |
+| NN         | Gray    | 33.084 sec     | 38.0%           | 40.38%         |
+| LeNet      | Gray    | 10 hour 17 min | 98%             | 100%           |
+| AlexNet    | Gray    | 6 hour 14 min  | 95%             | 96.15%         |
+| GoogLeNet  | Gray    | 1 hour 20 min  | 96.5%           | 100%           |
+
+| Method     | DataSet | TrainTime     | Accuracy(Train) | Accuracy(Test) |
+|                                                                         |
+| ----------:|:------- |:-------------:|:---------------:|:-------------- |
+| Bayes      | Color   | 4.763 sec     | 97%             | 94.23%         |
+| DisionTree | Color   | 9.550 sec     | 100%            | 100%           |
+| SVM        | Color   | 43.221 sec    | 33.33%          | 34.62%         |
+| K-NN       | Color   | 3.931 sec     | 99.67%          | 100%           |
+| NN         | Color   | 218.309 sec   | 100.0%          | 100%           |
+| LeNet      | Color   | 1 hour 23 min | 98%             | 100%           |
+| AlexNet    | Color   | 5 hour 38 min | 95%             | 96.15%         |
+| GoogLeNet  | Color   | 1 hour 22 min | 98%             | 100%           |
 
 ## Important !!!
 
