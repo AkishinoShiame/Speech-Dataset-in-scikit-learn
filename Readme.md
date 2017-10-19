@@ -6,7 +6,6 @@ Testing the Datasets of [Chinese-Speech-Emotion-Datasets](https://github.com/art
 ## Details
 
 | Method     | DataSet | TrainTime      | Accuracy(Train) | Accuracy(Test) |
-|                                                                          |
 | ----------:|:------- |:--------------:|:---------------:|:-------------- |
 | Bayes      | Gray    | 1.028 sec      | 96.5%           | 94.23%         |
 | DisionTree | Gray    | 3.518 sec      | 100.0%          | 100%           |
@@ -18,7 +17,6 @@ Testing the Datasets of [Chinese-Speech-Emotion-Datasets](https://github.com/art
 | GoogLeNet  | Gray    | 1 hour 20 min  | 96.5%           | 100%           |
 
 | Method     | DataSet | TrainTime     | Accuracy(Train) | Accuracy(Test) |
-|                                                                         |
 | ----------:|:------- |:-------------:|:---------------:|:-------------- |
 | Bayes      | Color   | 4.763 sec     | 97%             | 94.23%         |
 | DisionTree | Color   | 9.550 sec     | 100%            | 100%           |
